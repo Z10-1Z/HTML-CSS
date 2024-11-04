@@ -26,17 +26,20 @@ div p{
     color: snow;
     font-size: 18px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 600px;
 }
 
-input{
+.b{
     color: snow;
-    background-color: transparent;
-    border-radius: 10px;
+    background-color: black ;
+    border: none;
+    border-radius: 15px;
     font-size: 12px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     cursor: pointer;
-    width: 130px;
+    width: 120px;
     height: 30px;
     margin-top: 15px;
+    font-size: 15px;
 }
