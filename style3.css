@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: beige;
+    position: fixed;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li a {
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+ul li {
+    float: left;
+    margin: 5px;
+}
+
+
+.fix-clear {
+    clear: both;
+}
+
+.design {
+    position: relative;
+    background-color: black;
+    color: yellow;
+    width: 10%;
+    height: 60px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.num {
+    color: skyblue;
+    width: 10%;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+    border: yellow solid 3px;
+    position: relative;
+}
+
+.img {
+    position: absolute;
+    margin-top: 27.5px;
+    width: 100%;
+    height: 100%;
+    background-image: url(/IMGS/hero-1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.card {
+    background-color: white;
+    color: black;
+    position: relative;
+    margin-right: auto;
+    margin-left: 99px;
+    margin-top: 10%;
+    width: 42%;
+    padding: 30px;
+    font-size: 30px;
+    font-family:  sans-serif;
+}
+
+.h2{
+    padding: 20px 0px 20px 0px;
+    text-transform: uppercase; 
+}
+
+.p{
+    padding: 20px 0px 20px 0px;
+}
+
+.btn {
+    background-color: yellow;
+    font-size: 25px;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn:hover{
+    color: white;
+}
+
+.cards{
+    position: relative;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.cart{
+    background-color: snow;
+    width: calc((100%/4) - 40px);
+    float: left;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    font-family: sans-serif;
+}
+.fix-clear{
+    clear: both;
+}
+.center{
+    text-align: center;
+}
+
+h3{
+    padding: 20px;
+} 
